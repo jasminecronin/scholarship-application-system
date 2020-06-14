@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StudentMainController">
+   <top>
+      <fx:include source="Header.fxml" />
+   </top>
+   <left>
+      <VBox prefHeight="500.0" prefWidth="160.0" style="-fx-background-color: #cf0722;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="mainMenuButton" graphicTextGap="0.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMainMenuButtonAction" style="-fx-background-color: #cf0722;" text="Main Menu" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="viewScholarshipButton" mnemonicParsing="false" onAction="#handleViewScholarshipButtonAction" style="-fx-background-color: #cf0722;" text="View Scholarships" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="newApplicationButton" mnemonicParsing="false" onAction="#handleNewApplicationButtonAction" style="-fx-background-color: #cf0722;" text="New Application" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="reviewApplicationButton" mnemonicParsing="false" onAction="#handleReviewApplicationsButtonAction" prefHeight="54.0" prefWidth="160.0" style="-fx-background-color: #cf0722;" text="Review My Applications" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="viewAwardsButton" mnemonicParsing="false" onAction="#handleViewAwardsButtonAction" style="-fx-background-color: #cf0722;" text="Award Offers" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="awardHistoryButton" mnemonicParsing="false" onAction="#handleAwardHistoryButtonAction" style="-fx-background-color: #cf0722;" text="Award History" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

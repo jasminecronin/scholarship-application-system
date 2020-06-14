@@ -1,0 +1,7 @@
+IDNumber,Name,Donor,Deadline(dd/MM/yyyy HH:mm:ss),Amount,Number,ReqFac,ReqDept,RecType,ReqGPA,ReqYear,Status,DatePosted(dd/MM/yyyy HH:mm:ss)
+0,Copp Family Scholarship,Estate of Vivian Dorothy Boucher Calgary,2019-08-01 23:59,4000,11,ANY,ANY,UGRAD,3.0,1+,Open,2019-04-03 19:52
+1,A.H. Younger Undergraduate Scholarship in Chemical and Oil & Gas Engineering,Friends and Family of Dr. A.H. Younger,2019-08-01 23:59,6500,13,EN,CHEM,UGRAD,3.0,2+,Open,2019-04-03 19:54
+2,George Loo Scholarship in Computer Science,George Loo,2019-08-01 23:59,5000,1,SC,CPSC,UGRAD,3.0,2+,Open,2019-04-03 19:56
+3,25th Anniversary Scholarship in Mathematics and Statistics,Department of Mathematics and Statistics,2019-08-01 23:59,1200,3,SC,MATH,GRAD,3.0,1+,Open,2019-04-03 19:57
+4,Jillian Allan Bursary in English,This bursary honours Jillian Allan a 1984 graduate of the University of Calgary.,2019-08-01 23:59,7000,2,AR,ENGL,UGRAD,3.0,1+,Open,2019-04-03 20:05
+5,Cynthia Prasow Scholarship in Early Childhood Education,Family and friends of Cynthia Prasow,2019-08-01 23:59,500,1,ED,ANY,UGRAD,3.0,1+,Open,2019-04-03 20:06
